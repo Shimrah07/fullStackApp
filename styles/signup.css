@@ -1,0 +1,31 @@
+#signup{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    height: fit-content;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 70%;
+    margin: auto;
+}
+
+input, select{
+    padding: 0.5rem;
+}
+
+#signbtn{
+    width: 40%;
+    margin: auto;
+    color: white;
+    background-color: palevioletred;
+    border: none;
+    font-size: 1rem;
+    border-radius: 1rem;
+}

@@ -1,0 +1,72 @@
+
+/* header styling */
+body{
+    margin: 0;
+    min-height: 100vh;
+    font-family: poppins;
+}
+
+#nav{
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    font-family: poppins;
+    background-color: rgb(218, 170, 152);
+    color: rgb(186, 12, 47);
+    padding: 10px;
+}
+
+#navLinks {
+    display: flex;
+    margin-right: 3rem;
+    gap: 40px;
+
+}
+a{
+    text-decoration: none;
+    color: blueviolet;
+}
+a:hover{
+    background-color: pink;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 5px;
+
+}
+
+/* main styling */
+
+#main{
+    margin: auto;
+    width: 40%;
+    padding: 1rem;
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 2rem;
+    background-color: rgb(228, 159, 196);
+    border-radius: 10px;
+
+}
+
+#main-btn{
+    padding: 1rem;
+    border: none;
+    font-family: poppins;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+#main-btn:hover{
+    background-color: pink
+
+}
+
+/* footer styling */
+#footer{
+padding: 1.2rem;
+background-color: rgb(218, 170, 152);
+position: absolute;
+bottom: 0;
+width: 100%;
+height: fit-content;
+}

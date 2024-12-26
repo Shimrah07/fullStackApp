@@ -1,0 +1,1 @@
+export let baseurl = "https://cyan-coordinated-soursop.glitch.me";
