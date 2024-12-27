@@ -18,11 +18,11 @@ form.addEventListener("submit",  async (event) => {
             
             if (user.length != 0){
                 if(user[0].password == password){
-                    alert("Login successful!")
+                    alert("Login successful!");
                     window.location.href = "todos.html"
                 }
                 else{
-                    alert("Incorrect Password")
+                    alert("Incorrect Password");
                 }
 
             }
